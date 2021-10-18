@@ -2,7 +2,7 @@
   "name": "cleanfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://midayex.github.io/",
+  "homepage": "https://midayex.github.io/midayex-gh-pages",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
