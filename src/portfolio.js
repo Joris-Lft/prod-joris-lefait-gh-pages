@@ -152,4 +152,31 @@ const contact = {
   email: "contact@joris-lefait.com",
 };
 
-export { header, about, projects, skills, contact };
+const docs = [
+  {
+    name: "Migrate Node x PostgreSQL to Prisma",
+    path: "assets/migrate-node-postgresql-to-prisma.md",
+  },
+  {
+    name: "Add TailwindCSS to Svelte project",
+    path: "assets/add-tailwindcss-to-svelte-project.md",
+  },
+  {
+    name: "Homemade npm package",
+    path: "assets/homemade-npm-package.md",
+  },
+  {
+    name: "Use private npm package",
+    path: "assets/use-private-npm-package.md",
+  },
+  {
+    name: "Implement Algolia Search",
+    path: "assets/implement-algolia-search.md",
+  },
+  {
+    name: "Init Node x Express x Prisma project",
+    path: "assets/init-node-express-prisma-project.md",
+  },
+];
+
+export { header, about, projects, skills, contact, docs };

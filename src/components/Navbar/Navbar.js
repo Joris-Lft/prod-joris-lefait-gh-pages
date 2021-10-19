@@ -1,30 +1,31 @@
-import { useContext, useState } from 'react'
-import Brightness2Icon from '@material-ui/icons/Brightness2'
-import WbSunnyRoundedIcon from '@material-ui/icons/WbSunnyRounded'
-import MenuIcon from '@material-ui/icons/Menu'
-import CloseIcon from '@material-ui/icons/Close'
-import { ThemeContext } from '../../contexts/theme'
-import { projects, skills, contact } from '../../portfolio'
-import './Navbar.css'
+import { useContext, useState } from "react";
+import Brightness2Icon from "@material-ui/icons/Brightness2";
+import WbSunnyRoundedIcon from "@material-ui/icons/WbSunnyRounded";
+import MenuIcon from "@material-ui/icons/Menu";
+import CloseIcon from "@material-ui/icons/Close";
+import { ThemeContext } from "../../contexts/theme";
+import { projects, skills, contact } from "../../portfolio";
+import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const [{ themeName, toggleTheme }] = useContext(ThemeContext)
-  const [showNavList, setShowNavList] = useState(false)
+  const [{ themeName, toggleTheme }] = useContext(ThemeContext);
+  const [showNavList, setShowNavList] = useState(false);
 
-  const toggleNavList = () => setShowNavList(!showNavList)
+  const toggleNavList = () => setShowNavList(!showNavList);
 
   return (
-    <nav className='center nav'>
+    <nav className="center nav">
       <ul
-        style={{ display: showNavList ? 'flex' : null }}
-        className='nav__list'
+        style={{ display: showNavList ? "flex" : null }}
+        className="nav__list"
       >
         {projects.length ? (
-          <li className='nav__list-item'>
+          <li className="nav__list-item">
             <a
-              href='#projects'
+              href="/#projects"
               onClick={toggleNavList}
-              className='link link--nav'
+              className="link link--nav"
             >
               Projects
             </a>
@@ -32,11 +33,11 @@ const Navbar = () => {
         ) : null}
 
         {skills.length ? (
-          <li className='nav__list-item'>
+          <li className="nav__list-item">
             <a
-              href='#skills'
+              href="/#skills"
               onClick={toggleNavList}
-              className='link link--nav'
+              className="link link--nav"
             >
               Skills
             </a>
@@ -44,37 +45,47 @@ const Navbar = () => {
         ) : null}
 
         {contact.email ? (
-          <li className='nav__list-item'>
+          <li className="nav__list-item">
             <a
-              href='#contact'
+              href="/#contact"
               onClick={toggleNavList}
-              className='link link--nav'
+              className="link link--nav"
             >
               Contact
             </a>
           </li>
         ) : null}
+
+        <li className="nav__list-item">
+          <a
+            href="/documentation"
+            onClick={toggleNavList}
+            className="link link--nav"
+          >
+            Documentation
+          </a>
+        </li>
       </ul>
 
       <button
-        type='button'
+        type="button"
         onClick={toggleTheme}
-        className='btn btn--icon nav__theme'
-        aria-label='toggle theme'
+        className="btn btn--icon nav__theme"
+        aria-label="toggle theme"
       >
-        {themeName === 'dark' ? <WbSunnyRoundedIcon /> : <Brightness2Icon />}
+        {themeName === "dark" ? <WbSunnyRoundedIcon /> : <Brightness2Icon />}
       </button>
 
       <button
-        type='button'
+        type="button"
         onClick={toggleNavList}
-        className='btn btn--icon nav__hamburger'
-        aria-label='toggle navigation'
+        className="btn btn--icon nav__hamburger"
+        aria-label="toggle navigation"
       >
         {showNavList ? <CloseIcon /> : <MenuIcon />}
       </button>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

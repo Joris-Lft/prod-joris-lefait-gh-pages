@@ -1,0 +1,13 @@
+.documentation {
+  flex-direction: column;
+  margin-top: 3em;
+  min-height: 75vh;
+}
+.documentation__desc {
+  font-size: 1rem;
+  max-width: 600px;
+  text-align: center;
+}
+.documentation__list {
+  margin-top: 2rem;
+}
