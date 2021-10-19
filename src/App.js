@@ -9,28 +9,25 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Documentation from "./components/Documentation/Documentation";
 import "./App.css";
-import { Route, Switch } from "react-router";
-import { BrowserRouter } from "react-router-dom";
+import { DisplayDocumentationContext } from "./contexts/displayDocumentation";
 
 const App = () => {
   const [{ themeName }] = useContext(ThemeContext);
+  const [{ displayDocumentation }] = useContext(DisplayDocumentationContext);
 
   return (
     <div id="top" className={`${themeName} app`}>
-      <BrowserRouter>
-        <Header />
-        <Switch>
-          <Route exact path="/">
-            <About />
-            <Skills />
-            <Projects />
-            <Contact />
-          </Route>
-          <Route path="/documentation">
-            <Documentation />
-          </Route>
-        </Switch>
-      </BrowserRouter>
+      <Header />
+      {!displayDocumentation ? (
+        <>
+          <About />
+          <Skills />
+          <Projects />
+          <Contact />
+        </>
+      ) : (
+        <Documentation />
+      )}
 
       <ScrollToTop />
       <Footer />

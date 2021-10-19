@@ -31,6 +31,7 @@ const About = () => {
             {social.github && (
               <a
                 href={social.github}
+                target="_blank"
                 aria-label="github"
                 className="link link--icon"
               >
@@ -41,6 +42,7 @@ const About = () => {
             {social.linkedin && (
               <a
                 href={social.linkedin}
+                target="_blank"
                 aria-label="linkedin"
                 className="link link--icon"
               >

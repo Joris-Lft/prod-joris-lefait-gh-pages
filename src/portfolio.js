@@ -155,27 +155,27 @@ const contact = {
 const docs = [
   {
     name: "Migrate Node x PostgreSQL to Prisma",
-    path: "assets/migrate-node-postgresql-to-prisma.md",
+    path: "assets/migrate-node-postgresql-to-prisma.pdf",
   },
   {
     name: "Add TailwindCSS to Svelte project",
-    path: "assets/add-tailwindcss-to-svelte-project.md",
+    path: "assets/add-tailwindcss-to-svelte-project.pdf",
   },
   {
     name: "Homemade npm package",
-    path: "assets/homemade-npm-package.md",
+    path: "assets/homemade-npm-package.pdf",
   },
   {
     name: "Use private npm package",
-    path: "assets/use-private-npm-package.md",
+    path: "assets/use-private-npm-package.pdf",
   },
   {
     name: "Implement Algolia Search",
-    path: "assets/implement-algolia-search.md",
+    path: "assets/implement-algolia-search.pdf",
   },
   {
     name: "Init Node x Express x Prisma project",
-    path: "assets/init-node-express-prisma-project.md",
+    path: "assets/init-node-express-prisma-project.pdf",
   },
 ];
 
