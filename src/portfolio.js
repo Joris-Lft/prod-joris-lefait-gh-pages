@@ -7,7 +7,7 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: "Joris Lefait",
-  role: "FullStack developper",
+  role: "FullStack developer",
   description:
     "I'm Joris. I started my career in programming in 2019 after some years working in chemistry. I was first a front-end developer and then I started learning back-end development with Node.js, Express.js and PostgreSQL. I also work with some Raspberry Pi and am learning basics of cybersecurity.",
   // resume: "https://example.com",
@@ -21,6 +21,17 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
+    name: "Chatbot Improvement",
+    description:
+      "Create an HMI which allow data analyst to rework on some chatbot responses of a chatbot to make it more efficient. In pair with a data scientist, remotly.",
+    stack: [
+      "React",
+      "Python",
+      "Uvicorn",
+      "FastAPI"
+    ],
+  },
+  {
     name: "SNCF",
     description:
       "Rework of the front-end of all ter.sncf.fr websites, in React + Next.js with accessibility constraints, and regions specifiations themes. In a team of 10 peoples sometimes in customer's office, most remotly.",
@@ -33,6 +44,7 @@ const projects = [
       "Gitlab",
       "JIRA",
     ],
+    livePreview: "https://m.ter.sncf.com/hauts-de-france",
   },
   {
     name: "POC Svelte x Algolia x TailwindCSS",
@@ -79,6 +91,19 @@ const projects = [
     stack: ["React", "Material Design"],
   },
   {
+    name: "SuperCollab",
+    description:
+      "As part of the creation of a Start-Up, creation of a Web App allowing the connection between different law firms / notaries.",
+    stack: ["React", "Docker"],
+    livePreview: "https://supercollab.fr",
+  },
+  {
+    name: "NewDeal",
+    description:
+      "During a partnership between NewDeal and La Mobilery, realization of a mobile application in React Native of an HR management solution (establishment of pay slips, leave requests ...).",
+    stack: ["React Native", "Typescript"],
+  },
+  {
     name: "Leroy Merlin",
     description:
       "Intervention as a techOps. Management of the fleet of terminals deployed in France in stores and warehouses via an MDM. Deployment of updates and fixes to terminals. Implementation of analytics feedback to monitor the status of deployments and the status of terminals. Development of a monitoring platform for the solutions deployed by the squad. Deployment of solutions via Docker and Kubernetes. Participation in the Google Cloud Challenge for 3 days in partnership with ADEO, project to port a legacy application to a cloud infrastructure. Benchmark of the various MDMs on the market, consultation with terminal manufacturers for fleet renewal.",
@@ -91,19 +116,6 @@ const projects = [
       "GCP",
       "Openshift",
     ],
-  },
-  {
-    name: "SuperCollab",
-    description:
-      "As part of the creation of a Start-Up, creation of a Web App allowing the connection between different law firms / notaries.",
-    stack: ["React", "Docker"],
-    livePreview: "https://supercollab.fr",
-  },
-  {
-    name: "NewDeal",
-    description:
-      "During a partnership between NewDeal and La Mobilery, realization of a mobile application in React Native of an HR management solution (establishment of pay slips, leave requests ...).",
-    stack: ["React Native", "Typescript"],
   },
 ];
 
