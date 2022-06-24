@@ -24,12 +24,7 @@ const projects = [
     name: "Chatbot Improvement",
     description:
       "Create an HMI which allow data analyst to rework on some chatbot responses to make it more efficient. In pair with a data scientist, remotly.",
-    stack: [
-      "React",
-      "Python",
-      "Uvicorn",
-      "FastAPI",
-    ],
+    stack: ["React", "Python", "Uvicorn", "FastAPI"],
   },
   {
     name: "SNCF",
@@ -71,6 +66,25 @@ const projects = [
     stack: ["Node.JS", "Express", "Prisma", "PostgreSQL", "Gitlab", "Heroku"],
   },
   {
+    name: "SuperCollab",
+    description:
+      "As part of the creation of a Start-Up, creation of a Web App allowing the connection between different law firms / notaries.",
+    stack: ["React", "Docker"],
+    livePreview: "https://supercollab.fr",
+  },
+  {
+    name: "NewDeal",
+    description:
+      "During a partnership between NewDeal and La Mobilery, realization of a mobile application in React Native of an HR management solution (establishment of pay slips, leave requests ...).",
+    stack: ["React Native", "Typescript"],
+  },
+  {
+    name: "Experiencis",
+    description:
+      "Development of a platform aimed at connecting buyers and individuals in order to carry out remote visits to goods (real estate, automobile, high-tech). In tandem with a technical lead, reinforcement on the Front development part of a Web App in ReactJS.",
+    stack: ["React", "Material Design"],
+  },
+  {
     name: "RapidFlyer",
     description:
       "Redesign of the front-end for the V4 of the Website in Next.js in headless commerce. In a team of 10 people directly at the customer. Development of screens and deployment of revenue phases in direct contact with the customer.",
@@ -85,28 +99,9 @@ const projects = [
     livePreview: "https://www.rapid-flyer.com/",
   },
   {
-    name: "Experiencis",
-    description:
-      "Development of a platform aimed at connecting buyers and individuals in order to carry out remote visits to goods (real estate, automobile, high-tech). In tandem with a technical lead, reinforcement on the Front development part of a Web App in ReactJS.",
-    stack: ["React", "Material Design"],
-  },
-  {
-    name: "SuperCollab",
-    description:
-      "As part of the creation of a Start-Up, creation of a Web App allowing the connection between different law firms / notaries.",
-    stack: ["React", "Docker"],
-    livePreview: "https://supercollab.fr",
-  },
-  {
-    name: "NewDeal",
-    description:
-      "During a partnership between NewDeal and La Mobilery, realization of a mobile application in React Native of an HR management solution (establishment of pay slips, leave requests ...).",
-    stack: ["React Native", "Typescript"],
-  },
-  {
     name: "Leroy Merlin",
     description:
-      "Intervention as a techOps. Management of the fleet of terminals deployed in France in stores and warehouses via an MDM. Deployment of updates and fixes to terminals. Implementation of analytics feedback to monitor the status of deployments and the status of terminals. Development of a monitoring platform for the solutions deployed by the squad. Deployment of solutions via Docker and Kubernetes. Participation in the Google Cloud Challenge for 3 days in partnership with ADEO, project to port a legacy application to a cloud infrastructure. Benchmark of the various MDMs on the market, consultation with terminal manufacturers for fleet renewal.",
+      "Intervention as a techOps. Management of the fleet of terminals deployed in France in stores and warehouses via an MDM. Deployment of updates and fixes to terminals. Implementation of analytics feedback to monitor the status of deployments and terminals. Development of a monitoring platform for the solutions deployed by the squad. Participation in the Google Cloud Challenge for 3 days in partnership with ADEO, project to port a legacy application to a cloud infrastructure. Benchmark of the various MDMs on the market, consultation with terminal manufacturers for fleet renewal.",
     stack: [
       "Javascript",
       "Python",
