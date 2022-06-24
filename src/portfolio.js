@@ -23,12 +23,12 @@ const projects = [
   {
     name: "Chatbot Improvement",
     description:
-      "Create an HMI which allow data analyst to rework on some chatbot responses of a chatbot to make it more efficient. In pair with a data scientist, remotly.",
+      "Create an HMI which allow data analyst to rework on some chatbot responses to make it more efficient. In pair with a data scientist, remotly.",
     stack: [
       "React",
       "Python",
       "Uvicorn",
-      "FastAPI"
+      "FastAPI",
     ],
   },
   {
