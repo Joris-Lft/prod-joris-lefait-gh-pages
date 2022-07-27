@@ -1,0 +1,18 @@
+
+tasks:
+  - init: npm install && npm run build
+    command: npm run start
+
+
+
+vscode:
+  extensions:
+    - esbenp.prettier-vscode
+    - dsznajder.es7-react-js-snippets
+    - steoates.autoimport
+    - formulahendry.auto-rename-tag
+    - aaron-bond.better-comments
+    - kamikillerto.vscode-colorize
+    - dbaeumer.vscode-eslint
+    - DavidAnson.vscode-markdownlint
+    - eamodio.gitlens
