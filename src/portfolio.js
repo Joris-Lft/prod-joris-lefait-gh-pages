@@ -21,6 +21,12 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
+    name: "La Banque Postale",
+    description:
+      "Full rework of cusotmer application, UX reflections on prototypes, creation of POCs, training of developers at the client, integration of development cycles in agile mode (SCRUM)",
+    stack: ["React Native"],
+  },
+  {
     name: "Chatbot Improvement",
     description:
       "Create an HMI which allow data analyst to rework on some chatbot responses to make it more efficient. In pair with a data scientist, remotly.",
@@ -70,7 +76,6 @@ const projects = [
     description:
       "As part of the creation of a Start-Up, creation of a Web App allowing the connection between different law firms / notaries.",
     stack: ["React", "Docker"],
-    livePreview: "https://supercollab.fr",
   },
   {
     name: "NewDeal",
