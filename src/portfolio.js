@@ -23,7 +23,7 @@ const projects = [
   {
     name: "La Banque Postale",
     description:
-      "Full rework of cusotmer application, UX reflections on prototypes, creation of POCs, training of developers at the client, integration of development cycles in agile mode (SCRUM)",
+      "Full rework of customer application, UX reflection on prototypes, creation of POCs, training of developers at the client, integration of development cycles in agile mode (SCRUM)",
     stack: ["React Native"],
   },
   {
@@ -35,7 +35,7 @@ const projects = [
   {
     name: "SNCF",
     description:
-      "Rework of the front-end of all ter.sncf.fr websites, in React + Next.js with accessibility constraints, and regions specifiations themes. In a team of 10 peoples sometimes in customer's office, most remotly.",
+      "Rework of the front-end of all ter.sncf.fr websites, in React + Next.js with accessibility constraints, and regions specifiation themes. In a team of 10 peoples sometimes in customer's office, most remotly.",
     stack: [
       "TypeScript",
       "React",
@@ -192,3 +192,4 @@ const docs = [
 ];
 
 export { header, about, projects, skills, contact, docs };
+;
