@@ -9,7 +9,7 @@ const about = {
   name: "Joris Lefait",
   role: "FullStack developer",
   description:
-    "I'm Joris. I started my career in programming in 2019 after some years working in chemistry. I was first a front-end developer and then I started learning back-end development with Node.js, Express.js and PostgreSQL. I also work with some Raspberry Pi and am learning basics of cybersecurity.",
+    "I'm Joris. I started my career in programming in 2019 after some years working in chemistry. I was first a front-end developer and then I started learning back-end development with Node.js, Express.js and PostgreSQL. I also play with Raspberry Pi and am learning basics of cybersecurity.",
   // resume: "https://example.com",
   social: {
     linkedin: "https://www.linkedin.com/in/joris-lefait-79b7646b/",
@@ -23,7 +23,7 @@ const projects = [
   {
     name: "La Banque Postale",
     description:
-      "Full rework of customer application, UX reflection on prototypes, creation of POCs, training of developers at the client, integration of development cycles in agile mode (SCRUM)",
+      "Full rework of customer application, UX reflections on prototypes, creation of POCs, training of developers at the client, integration of development cycles in agile mode (SCRUM)",
     stack: ["React Native"],
   },
   {
@@ -132,6 +132,7 @@ const skills = [
     name: "TypeScript",
     source: "https://www.typescriptlang.org/",
   },
+  { name: "React Native", source: "https://reactnative.dev/" },
   { name: "React", source: "https://reactjs.org/" },
   {
     name: "Redux",
@@ -192,4 +193,3 @@ const docs = [
 ];
 
 export { header, about, projects, skills, contact, docs };
-;
