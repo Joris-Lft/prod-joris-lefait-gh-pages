@@ -12,8 +12,8 @@ const about = {
     "I'm Joris. I started my career in programming in 2019 after some years working in chemistry. I was first a front-end developer and then I started learning back-end development with Node.js, Express.js and PostgreSQL. I also play with Raspberry Pi and am learning basics of cybersecurity.",
   // resume: "https://example.com",
   social: {
-    linkedin: "https://www.linkedin.com/in/joris-lefait-79b7646b/",
-    github: "https://github.com/midayex",
+    linkedin: "https://www.linkedin.com/in/joris-lefait/",
+    github: "https://github.com/Joris-Lft",
   },
 };
 
@@ -21,10 +21,17 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
+    name: "TheHive",
+    description:
+      "Maintain and develop new features for the product: more informations about it with the link below.",
+    stack: ["React", "Antd Design", "SCSS", "Storybook", "Vitest"],
+    livePreview: "https://thehive-project.org",
+  },
+  {
     name: "La Banque Postale",
     description:
       "Full rework of customer application, UX reflections on prototypes, creation of POCs, training of developers at the client, integration of development cycles in agile mode (SCRUM)",
-    stack: ["React Native"],
+    stack: ["React Native", "Gitlab", "NativeBase", "JIRA"],
   },
   {
     name: "Chatbot Improvement",
@@ -42,6 +49,7 @@ const projects = [
       "NextJS",
       "MaterialUI",
       "Storybook",
+      "JEST",
       "Gitlab",
       "JIRA",
     ],
